@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+
+}
+
+.ppal{
+    flex:1;
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 100%;
+    float: left;
+    margin-top: 2px;
+    text-align: justify;
+    
+}
+.izquierda{
+    flex:2;
+    float: left;
+    width: 70%;
+    height: 60%;
+    border-radius: 24px;
+}
+.derecha{
+    flex:4;    
+    float: right;
+    width: 30%;
+    height: 450px;
+    border-radius: 24px;
+    background: white;
+    position: relative;
+}
+.botones{
+    flex:3;
+    float:left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+.imglogo{
+    margin-top: 1px;
+    float:inherit;
+    margin-left: 5%;
+}
+.title{
+    float:inherit;
+    margin-left:15%;
+}
+.ingresetexto{
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+#input{
+    float: left;
+    width: 60%;
+    height: 60%;
+    text-align: justify;
+}
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    position:relative;
+}
+#texto{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#texto2{
+    float:left;
+    color: #0A3871;
+    width: 90%;
+    height: 260px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    position:absolute;
+    margin-top: auto;
+    
+}
+#botonEncript{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color:#F3F5FC;
+}
+#botonEncript:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#botonDesencript{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+#botonDesencript:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#copiar{
+    margin-left: 33%;
+    margin-top: 120%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 20px;
+    display: none;
+}
+#copiar:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+@media screen and (max-width: 480px){
+
+
+    .caja, .ppal{
+        width: auto;
+    
+    }
+    .titulo{
+        width: 100%;
+        font-size: 20px;
+    }
+    .botones{
+        margin-top: 40px;
+    }
+    #botonEncript{
+        width: 100%;
+    }
+    #botonDesencript{
+        width: 100%;
+    }
+    .izquierda{
+        width: 100%;
+        font-size: 15px;
+    }
+    .ingresetexto{
+        width: 100%;
+        font-size: 15px;
+    }
+    .derecha{
+        width: 100%;
+    }
+    #imgDer{
+        display: none;
+    }
+    #texto2{
+        width: 100%;
+        height: 300px;
+    }
+
+}
